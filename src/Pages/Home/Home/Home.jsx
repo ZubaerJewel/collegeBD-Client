@@ -2,6 +2,7 @@ import SearchButton from "../../../component/SearchButton";
 import Banner from "./Banner";
 import Features from "./Features";
 import Graduate from "./Graduate";
+import Review from "./Review";
 import ThreeCard from "./ThreeCard";
 
 
@@ -13,6 +14,7 @@ const Home = () => {
             <ThreeCard></ThreeCard> 
             <Graduate></Graduate>   
             <Features></Features>
+            <Review></Review>
         </div>
     );
 };
