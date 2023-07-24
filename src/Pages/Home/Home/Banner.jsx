@@ -7,32 +7,62 @@ const Banner = () => {
         
         <Carousel>
                 <div>
-                    <img src="https://img.freepik.com/premium-photo/man-cap-gown-with-background-cubes-words-university-arts-it_561641-1166.jpg?w=740" />
+                    <img src="https://www.qu.edu/4af3a7/globalassets/global/media/qu/photography/0_university-wide/mount-carmel-campus/mount-carmel-campus-1440x650-20180920-guad-001.jpg" />
                     <div className="absolute items-center h-full flex transform  left-0  bottom-0 bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0)]">
-          <div className='text-white space-y-5 pl-10 w-1/2'data-aos="zoom-in"
+          <div className='text-purple-300 space-y-5 pl-10 w-1/2'data-aos="zoom-in"
            data-aos-duration="2000">
-            <h1 className='mt-3 md:text-xl w-full'>Welcome to <span className="text-orange-400">Collegiate Nexus</span></h1>
-            <h2 className='md:text-5xl uppercase'>Education is the best key success in life</h2>
+            <h1 className='mt-3 md:text-xl w-full'>Welcome to <span className="text-purple-400">Colleges of Bangladesh</span></h1>
+            <h2 className='md:text-5xl '>We provided the best services from others.Education is the best key success in life</h2>
           </div>
           </div>
                     
                 </div>
                 <div>
-                    <img src="https://img.freepik.com/free-vector/student-campus-flat-composition-with-university-building-background-vector-illustration_1284-81556.jpg?w=740&t=st=1690006339~exp=1690006939~hmac=f443ac53db1929b980dabd4c2994f4d2b95b0cbd3d9dc884b08a5fb44cf97236" />
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAZ3VSq6-3Rkp-WGKbexEbYXwFFV5rS2nqTw&usqp=CAU" />
                     <div className="absolute items-center h-full flex transform  left-0  bottom-0 bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0)]">
-          <div className='text-white space-y-5 pl-10 w-1/2'>
-          <h1 className='mt-3 md:text-xl w-full'>Welcome to <span className="text-orange-400">Collegiate Nexus</span></h1>
-            <h2 className='md:text-4xl uppercase'>Education: Igniting minds, fuelling dreams, shaping a boundless tomorrow.</h2>
+          <div className='text-purple-300 space-y-5 pl-10 w-1/2'>
+          <h1 className='mt-3 md:text-xl w-full'>Welcome to <span className="text-purple-400">Colleges of Bangladesh</span></h1>
+            <h2 className='md:text-4xl '>We provided the best services from others.Education: Igniting minds, fuelling dreams, shaping a boundless tomorrow.</h2>
           </div>
           </div>
                     
                 </div>
                 <div>
-                    <img src="https://img.freepik.com/free-vector/student-flat-concept-with-young-men-graduation-scene-with-university-campus-background-vector-illustration_1284-81557.jpg?w=740&t=st=1690006523~exp=1690007123~hmac=0f4c6d14c79c96f6b2e242f930fbe2bbae2ba56c57279881012b95a8d14645f0" />
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3bniIppaNZmxoxlw7chmfyL8JZ1wcbtvV3w&usqp=CAU" />
                     <div className="absolute items-center h-full flex transform  left-0  bottom-0 bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0)]">
-          <div className='text-white space-y-5 pl-10 w-1/2'>
-          <h1 className='mt-3 md:text-xl w-full'>Welcome to <span className="text-orange-400">Collegiate Nexus</span></h1>
-            <h2 className='md:text-4xl uppercase'>Empower yourself through education, and the world becomes limitless.</h2>
+          <div className='text-purple-300 space-y-5 pl-10 w-1/2'>
+          <h1 className='mt-3 md:text-xl w-full'>Welcome to <span className="text-purple-400">Colleges of Bangladesh</span></h1>
+            <h2 className='md:text-4xl '>We provided the best services from others.Empower yourself through education, and the world becomes limitless.</h2>
+          </div>
+          </div>
+                    
+                </div>
+                <div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAZ3VSq6-3Rkp-WGKbexEbYXwFFV5rS2nqTw&usqp=CAU" />
+                    <div className="absolute items-center h-full flex transform  left-0  bottom-0 bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0)]">
+          <div className='text-purple-300 space-y-5 pl-10 w-1/2'>
+          <h1 className='mt-3 md:text-xl w-full'>Welcome to <span className="text-purple-400">Colleges of Bangladesh</span></h1>
+            <h2 className='md:text-4xl '>We provided the best services from others.Education: Igniting minds, fuelling dreams, shaping a boundless tomorrow.</h2>
+          </div>
+          </div>
+                    
+                </div>
+                <div>
+                    <img src="https://admission.rice.edu/sites/g/files/bxs3756/files/2020-07/Admission-925x568-Visit.jpg" />
+                    <div className="absolute items-center h-full flex transform  left-0  bottom-0 bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0)]">
+          <div className='text-purple-300 space-y-5 pl-10 w-1/2'>
+          <h1 className='mt-3 md:text-xl w-full'>Welcome to <span className="text-purple-400">Colleges of Bangladesh</span></h1>
+            <h2 className='md:text-4xl '>We provided the best services from others.Education: Igniting minds, fuelling dreams, shaping a boundless tomorrow.</h2>
+          </div>
+          </div>
+                    
+                </div>
+                <div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJV5MNZJ3WvhDT-27OPA6AS4_ZBuCN-Lb3OA&usqp=CAU" />
+                    <div className="absolute items-center h-full flex transform  left-0  bottom-0 bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0)]">
+          <div className='text-purple-300 space-y-5 pl-10 w-1/2'>
+          <h1 className='mt-3 md:text-xl w-full'>Welcome to <span className="text-purple-400">Colleges of Bangladesh</span></h1>
+            <h2 className='md:text-4xl '>We provided the best services from others.Education: Igniting minds, fuelling dreams, shaping a boundless tomorrow.</h2>
           </div>
           </div>
                     
