@@ -7,7 +7,8 @@ const SingleColleges = ({single}) => {
     }
     const{admission_date,college_image,college_name,college_rating,research_count}=single
     return (
-        <div className="mt-16">
+        <div className="mt-16"data-aos="zoom-in"
+        data-aos-duration="2000">
                     <div className="card w-full bg-base-100 shadow-xl">
         <figure><img className="h-56 w-full hover:scale-125 duration-500" src={college_image} alt="Shoes" /></figure>
         <div className="card-body">

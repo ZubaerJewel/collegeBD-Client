@@ -1,10 +1,23 @@
+import { useContext } from 'react';
 import { FaCalendarAlt } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
+import { Link} from 'react-router-dom';
+import { AuthContext } from '../../../provider/AuthProvider';
+import { toast } from 'react-hot-toast';
 
 const SingleCard = ({item}) => {
-    const {admissionDates,collegeImage,collegeName,id,researchHistory,sports,events}=item
+  const {user}=useContext(AuthContext);
+ 
+
+  const handleDetails=()=>{
+    if(!user){
+     toast.error('Invalid User Please Login first')
+    }
+  }
+ 
+    const {admissionDates,collegeImage,collegeName,_id,researchHistory,sports,events}=item
     return (
-        <div>
+        <div data-aos="zoom-in"
+        data-aos-duration="2000">
             <div className="card w-full bg-base-200 font-semibold shadow-2xl">
   <figure><img className="h-56 hover:scale-150 transform duration-1000" src={collegeImage} alt="Shoes" /></figure>
   <div className="card-body">
@@ -19,9 +32,15 @@ const SingleCard = ({item}) => {
    <p><span className='my-1'>Sports</span>: {sports.name}</p>
 
 
-    <div className="card-actions justify-end">
+    <div className="card-actions justify-end"> 
     
-      <Link to={`/card/${id}`} className=''>  <button className="btn text-white bg-[#ff4d89] hover:bg-[#F63E7B]">Details</button></Link>
+    { user?
+      <Link to={`/card/${_id}`} className=''>
+        <button className="btn text-white bg-[#ff4d89] hover:bg-[#F63E7B]">Details
+        </button></Link>:<Link to='/login'>
+          <button onClick={handleDetails} 
+          className="btn text-white bg-[#ff4d89] hover:bg-[#F63E7B]">Details</button>
+          </Link>}
     </div>
   </div>
 </div>

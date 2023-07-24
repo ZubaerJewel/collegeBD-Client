@@ -9,9 +9,10 @@ const Banner = () => {
                 <div>
                     <img src="https://img.freepik.com/premium-photo/man-cap-gown-with-background-cubes-words-university-arts-it_561641-1166.jpg?w=740" />
                     <div className="absolute items-center h-full flex transform  left-0  bottom-0 bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0)]">
-          <div className='text-white space-y-5 pl-10 w-1/2'>
+          <div className='text-white space-y-5 pl-10 w-1/2'data-aos="zoom-in"
+           data-aos-duration="2000">
             <h1 className='mt-3 md:text-xl w-full'>Welcome to <span className="text-orange-400">Collegiate Nexus</span></h1>
-            <h2 className='md:text-6xl'>Education is the best key success in life</h2>
+            <h2 className='md:text-5xl uppercase'>Education is the best key success in life</h2>
           </div>
           </div>
                     
@@ -21,7 +22,7 @@ const Banner = () => {
                     <div className="absolute items-center h-full flex transform  left-0  bottom-0 bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0)]">
           <div className='text-white space-y-5 pl-10 w-1/2'>
           <h1 className='mt-3 md:text-xl w-full'>Welcome to <span className="text-orange-400">Collegiate Nexus</span></h1>
-            <h2 className='md:text-6xl'>Education is the best key success in life</h2>
+            <h2 className='md:text-4xl uppercase'>Education: Igniting minds, fuelling dreams, shaping a boundless tomorrow.</h2>
           </div>
           </div>
                     
@@ -31,7 +32,7 @@ const Banner = () => {
                     <div className="absolute items-center h-full flex transform  left-0  bottom-0 bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0)]">
           <div className='text-white space-y-5 pl-10 w-1/2'>
           <h1 className='mt-3 md:text-xl w-full'>Welcome to <span className="text-orange-400">Collegiate Nexus</span></h1>
-            <h2 className='md:text-6xl'>Education is the best key success in life</h2>
+            <h2 className='md:text-4xl uppercase'>Empower yourself through education, and the world becomes limitless.</h2>
           </div>
           </div>
                     

@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import SingleColleges from "./SingleColleges";
+import SingleColleges from "./SingleCollege";
 import { FaGraduationCap } from 'react-icons/fa';
 
 
@@ -12,7 +12,8 @@ const Colleges = () => {
         .then(data=>setSixCard(data))
     },[])
     return (
-        <div className="mx-10 my-20">
+        <div className="mx-10 my-20"data-aos="zoom-in"
+        data-aos-duration="1500">
            {/* title */}
          <div className="uppercase text-center mt-16">
           <span className=" flex justify-center items-center text-orange-500"> <FaGraduationCap></FaGraduationCap>  <h2 className="text-xl ml-2">our popular college</h2></span>
