@@ -11,27 +11,27 @@ const Graduate = () => {
              
             <div className='grid md:grid-cols-4 gap-3 my-12'data-aos="zoom-in"
            data-aos-duration="1500">
-                <img src="https://img.freepik.com/free-photo/graduation-concept-with-students-holding-blank-certificate-template_23-2148201847.jpg?w=740&t=st=1690020155~exp=1690020755~hmac=75c347c99236552577364a663317fe3ba7a812ff307afed521514f26982bbf4a" alt="" />
-                <img src="https://img.freepik.com/free-photo/happy-friends-gratuating_23-2148522250.jpg?w=360&t=st=1690020259~exp=1690020859~hmac=ef21c01f491749f38f5a3f8f86d8138246dbc7e98a418fd38324a18d29404527" alt="" />
-                <img src="https://img.freepik.com/premium-psd/student-education-school-academic-friends_53876-28074.jpg?w=740" alt="" />
-                <img src="https://img.freepik.com/free-photo/happy-students-graduation-ceremony_23-2148522277.jpg?w=360&t=st=1690020386~exp=1690020986~hmac=542a1e1712001bde362e16cfd6377b2fcce8242a2b515fef9088b24fee6bcbe5" alt="" />
+                <img src="https://img.freepik.com/premium-photo/excited-two-successful-happy-graduates-robes-hats-with-tassel-together-making-self-photo-standing-university-building-hall-young-girls-students-showing-certificate-degree-close-take-selfie_678158-1729.jpg" alt="" />
+                <img src="https://as1.ftcdn.net/v2/jpg/04/36/66/34/1000_F_436663414_ns31tPee1VbI7HqtPyf3azhtHGKO7t5l.jpg" alt="" />
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG4LCsB_APM7d4lIkEPQsgeOTYW2qcDCOpiw&usqp=CAU" alt="" />
+                <img src="https://thumbs.dreamstime.com/z/students-graduation-excited-college-group-together-to-celebrate-future-portrait-diversity-men-women-happy-university-278277998.jpg" alt="" />
                 <img data-aos="zoom-in"
-           data-aos-duration="2000" src="https://img.freepik.com/free-photo/kids-celebrating-kindergarten-graduation_23-2149371597.jpg?w=360&t=st=1690020414~exp=1690021014~hmac=f0689894fcdc50e362b317b22c893560fbfc649ce7b2a541624baa33bb7511d7" alt="" />
+           data-aos-duration="2000" src="https://media.istockphoto.com/id/1386452720/photo/graduating-students-hands-throwing-graduation-caps-in-the-air.jpg?s=612x612&w=0&k=20&c=r2fkxOAYako_hWHPNbMZRNVdz84EsdILzL1ieVbIVWs=" alt="" />
                 <img data-aos="zoom-in"
-           data-aos-duration="2000" src="https://img.freepik.com/premium-photo/group-students-mantles-are-standing-corridor_85574-913.jpg?w=740" alt="" />
+           data-aos-duration="2000" src="https://st2.depositphotos.com/1003697/8122/i/600/depositphotos_81220580-stock-photo-group-of-young-graduates.jpg" alt="" />
 
                 <img data-aos="zoom-in"
-           data-aos-duration="2000" src="https://img.freepik.com/free-photo/side-view-group-graduated-students_23-2148522235.jpg?w=360&t=st=1690020513~exp=1690021113~hmac=82c828d604de1bf43efa8eea08cedf1b956df53a4c22c5146cb10126f2a389da" alt="" />
+           data-aos-duration="2000" src="https://media.istockphoto.com/id/936016782/photo/selfie-for-memories-six-with-cheerful-graduates-are-posing-for-selfie-shot-attractive-brunette.jpg?s=612x612&w=0&k=20&c=re5f2Z574tB1S7Cxx4bZthdp7veqvfDej27-2bd0WMg=" alt="" />
                 <img data-aos="zoom-in"
-           data-aos-duration="2000" src="https://img.freepik.com/free-photo/celebration-education-graduation-student-success-learning-concept_53876-147438.jpg?w=740&t=st=1690020561~exp=1690021161~hmac=7f8bd701e4159a04d61365b83dc5d49868b6638479fb51372d64a4fbd2ca4e89" alt="" />
+           data-aos-duration="2000" src="https://c8.alamy.com/comp/F84EDX/young-graduates-students-group-standing-in-front-of-university-building-F84EDX.jpg" alt="" />
                 <img data-aos="zoom-in"
-           data-aos-duration="2000" src="https://img.freepik.com/free-photo/international-graduates-from-celebrating-diplomas-graduation-robes_496169-1263.jpg?w=360&t=st=1690020628~exp=1690021228~hmac=ba1fcd118f1de8fa0bb98f503178b3d577fa0f8a69b09f1b5299ee9356e84afd" alt="" />
+           data-aos-duration="2000" src="https://c8.alamy.com/comp/FGP6MJ/young-graduates-students-group-FGP6MJ.jpg" alt="" />
                 <img data-aos="zoom-in"
-           data-aos-duration="2000"  src="https://img.freepik.com/free-photo/portrait-graduated-boy_23-2148522210.jpg?w=740&t=st=1690020742~exp=1690021342~hmac=c6b484969fd529e4a80209a9d66ed49c5d62ce1a82ef45b6a813871c1ddcf5b4" alt="" />
+           data-aos-duration="2000"  src="https://c8.alamy.com/comp/2MHE7Y0/graduate-women-friends-and-cap-in-air-for-celebration-happiness-or-success-for-studying-together-at-campus-university-student-black-woman-and-2MHE7Y0.jpg" alt="" />
                 <img data-aos="zoom-in"
-           data-aos-duration="2000"  src="https://img.freepik.com/premium-photo/group-happy-students-bachelor-s-robes-with-diplomas-taking-selfie-phone-outdoors_195549-5207.jpg?w=740" alt="" />
+           data-aos-duration="2000"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLymyGzoXQ7G753h0YoJpuhff1IihdlvYiQlqd7OROueekub6YdNzFyzCuB85_dUvuqyM&usqp=CAU" alt="" />
                 <img data-aos="zoom-in"
-           data-aos-duration="2000"  src="https://img.freepik.com/free-photo/friends-taking-photos-graduation_23-2148522247.jpg?w=740&t=st=1690020849~exp=1690021449~hmac=669d88a79fefb5900642257df8b35c206bfa64a2585ad58fd5ffc696316192fc" alt="" />
+           data-aos-duration="2000"  src="" alt="" />
 
             </div>
            

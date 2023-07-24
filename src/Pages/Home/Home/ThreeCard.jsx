@@ -17,7 +17,7 @@ const ThreeCard = () => {
             <h2 className="text-4xl  uppercase font-semibold">OUR top three colleges</h2>
             </div>
             
-            <h2 className='text-4xl uppercase mt-3'>our best college</h2>
+           
             <div className='grid md:grid-cols-3 gap-5 mt-16'>
             {
                 showCard.map(item=><SingleCard

@@ -15,9 +15,9 @@ const Footer = () => {
     <>
       <footer className="footer p-10 bg-black text-purple-500">
         <div>
-          <img src="/logo.png" className="w-20 rounded-full" alt="logo" />
+          <img src="https://cdn2.vectorstock.com/i/1000x1000/03/76/graduation-hat-icon-simple-style-vector-34510376.jpg" className="w-20 rounded-full" alt="logo" />
           <p className="font-semibold">
-            Educational Toys Ltd.
+            College Bangladesh Ltd.
             <br />
             We provide our best service with a best promise.
           </p>
