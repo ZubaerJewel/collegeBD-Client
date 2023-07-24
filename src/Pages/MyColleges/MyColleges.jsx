@@ -8,7 +8,7 @@ const MyColleges = () => {
     const{user}=useContext(AuthContext);
     const [myCollege,setMyCollege]=useState([]);
 
-    const url=`http://localhost:5000/allPost?email=${user?.email}`
+    const url=`https://college-server-zubaerjewel.vercel.app/allPost?email=${user?.email}`
     useEffect(()=>{
         fetch(url)
         .then(res=>res.json())

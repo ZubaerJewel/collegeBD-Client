@@ -5,7 +5,7 @@ import SingleReview from './SingleReview';
 const Review = () => {
     const [review,setReview]=useState([]);
     useEffect(()=>{
-        fetch('http://localhost:5000/getReview')
+        fetch('https://college-server-zubaerjewel.vercel.app/getReview')
         .then(res=>res.json())
         .then(data=>setReview(data))
     },[])

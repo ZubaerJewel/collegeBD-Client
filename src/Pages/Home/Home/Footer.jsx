@@ -2,20 +2,20 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookSquare,faYoutube,faTwitterSquare,faInstagramSquare } from '@fortawesome/free-brands-svg-icons';
 
-import React from "react";
-import {
-  FaFacebookSquare,
-  FaTwitterSquare,
-  FaInstagramSquare,
-  FaYoutube,
-} from "react-icons/fa";
+// import React from "react";
+// import {
+//   FaFacebookSquare,
+//   FaTwitterSquare,
+//   FaInstagramSquare,
+//   FaYoutube,
+// } from "react-icons/fa";
 
 const Footer = () => {
   return (
     <>
       <footer className="footer p-10 bg-black text-purple-500">
         <div>
-          <img src="https://cdn2.vectorstock.com/i/1000x1000/03/76/graduation-hat-icon-simple-style-vector-34510376.jpg" className="w-20 rounded-full" alt="logo" />
+          <img src="https://cdn2.vectorstock.com/i/1000x1000/03/76/graduation-hat-icon-simple-style-vector-34510376.jpg" className="w-20 rounded-full" alt="loding" />
           <p className="font-semibold">
             College Bangladesh Ltd.
             <br />

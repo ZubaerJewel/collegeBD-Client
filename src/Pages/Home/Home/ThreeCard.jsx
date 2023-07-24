@@ -5,7 +5,7 @@ import SingleCard from './SingleCard';
 const ThreeCard = () => {
     const [showCard,setShowCard]=useState([]);
     useEffect(()=>{
-        fetch('http://localhost:5000/threeCard')
+        fetch('https://college-server-zubaerjewel.vercel.app/threeCard')
         .then(res=>res.json())
         .then(data=>setShowCard(data))
     },[])

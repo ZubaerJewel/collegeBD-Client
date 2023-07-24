@@ -7,7 +7,7 @@ import { FaGraduationCap } from 'react-icons/fa';
 const Colleges = () => {
     const [sixCard,setSixCard]=useState([]);
     useEffect(()=>{
-        fetch('http://localhost:5000/sixCollege')
+        fetch('https://college-server-zubaerjewel.vercel.app/sixCollege')
         .then(res=>res.json())
         .then(data=>setSixCard(data))
     },[])

@@ -20,7 +20,7 @@ const Features = () => {
            data-aos-duration="1500" >
                
             <p className='my-5 font-medium'> 
-            Remember that each student's perception of the "best" features may vary based on their individual needs and aspirations. Therefore, when considering a college, it's essential to assess how well its features align with your personal goals and aspirations.
+        Remember that each student's perception of the "best" features may vary based on their individual needs and aspirations. Therefore, when considering a college, it's essential to assess how well its features align with your personal goals and aspirations.
             </p>
             {/* one */}
          

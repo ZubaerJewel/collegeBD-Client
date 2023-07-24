@@ -2,7 +2,7 @@ import { useLoaderData } from "react-router-dom";
 
 const PerCardInfo = () => {
     const loadData=useLoaderData()
-    //console.log(loadData)
+   
     return (
         <div className="grid md:grid-cols-2 mt-16 mb-20 mx-5 gap-5 items-center">
             <div className="h-full">

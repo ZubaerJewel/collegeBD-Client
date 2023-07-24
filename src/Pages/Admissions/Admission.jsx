@@ -15,7 +15,7 @@ const Admission = () => {
 
         const allInfo={name,subject,email,number,address,date,file}
         
-        fetch('http://localhost:5000/addPost',{
+        fetch('https://college-server-zubaerjewel.vercel.app/addPost',{
             method:'POST',
             headers:{
                 'content-type':'application/json'
