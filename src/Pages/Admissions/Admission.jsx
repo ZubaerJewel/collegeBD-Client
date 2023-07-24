@@ -1,7 +1,15 @@
+import { useState } from 'react';
 import { toast } from 'react-hot-toast';
 import { FaGraduationCap } from 'react-icons/fa';
+// import useColleges from '../../hook/useColleges';
+
+
+
 
 const Admission = () => {
+    const [selectedCollege, setSelectedCollege] = useState("");
+    // const { colleges } = useColleges();
+const colleges = ["Dhaka College","Ahsanullah College of Technology","M.M College","City College","Engineering College","Medical College"];
     const handleSubmit=(event)=>{
         event.preventDefault();
         const form=event.target;
@@ -11,9 +19,10 @@ const Admission = () => {
         const number=form.number.value;
         const address=form.address.value;
         const date=form.date.value;
+        // const college=form.college.value;
         const file=form.file.value;
 
-        const allInfo={name,subject,email,number,address,date,file}
+        const allInfo={name,subject,email,number,address,date,college: selectedCollege,file}
         
         fetch('https://college-server-zubaerjewel.vercel.app/addPost',{
             method:'POST',
@@ -30,7 +39,7 @@ const Admission = () => {
             }
         })
 
-        console.log(allInfo)
+        // console.log(allInfo)
 
     }
     return (
@@ -46,7 +55,7 @@ const Admission = () => {
                   </div>
                   <p className="mb-5 text-center md:px-28"data-aos="zoom-in"
            data-aos-duration="2000">Admissions crucial for future education. Opportunities, courses, faculty, resources assessed. Timely preparation and documentation vital. Choose wisely. Plan ahead.</p>
-                    <form onSubmit={handleSubmit} className="mx-10"data-aos="zoom-in"
+<form onSubmit={handleSubmit} className="mx-10"data-aos="zoom-in"
            data-aos-duration="3000">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="form-control">
@@ -93,11 +102,34 @@ const Admission = () => {
             <input type="date" name="date"  className="input input-bordered text-black" required />
 
             </div>
+            {/* college select button start*/}
+            <div className="flex mb-3 gap-3">
+          <div className="w-full">
+          <span className="label-text">Select your College</span>
+            <select
+              className="input-secondary text-gray-900 font-semibold w-full input input-bordered"
+              name="college"
+              value={selectedCollege}
+              onChange={(e) => setSelectedCollege(e.target.value)}
+              required
+            >
+              <option value="">Select a college</option>
+              {colleges.map((college, index) => (
+                <option key={index} className="text-gray-800" value={college}>
+                  {college}
+                </option>
+              ))}
+            </select>
+          </div>
+          </div>
+          {/* college select button end*/}
+
                 <div className="form-control">
                 <label className="label">
                     <span className="label-text text-purple-900">Image Field</span>
                 </label>
-            <input type="file" name="file"  className="file-input file-input-bordered w-full max-w-xs text-black" required />
+            <input type="file" name="file"  
+            className="file-input file-input-bordered w-full max-w-xs text-black" required />
 
             </div>
             
