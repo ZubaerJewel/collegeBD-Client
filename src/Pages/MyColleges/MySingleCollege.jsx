@@ -18,7 +18,7 @@ const MySingleCollege = ({singleCollege}) => {
     return (
         <div className="mt-8"data-aos="zoom-in"
         data-aos-duration="2000">
-            <div className="md:card w-full h-full bg-base-300 shadow-2xl hover:bg-sky-200 duration-500">
+            <div className="md:card w-full h-full bg-base-300 shadow-2xl hover:bg-purple-300 duration-500">
         <div className="card-body">
             <h2 className="card-title">Name : {name}</h2>
             <div className="md:flex gap-3 my-5">
@@ -29,11 +29,11 @@ const MySingleCollege = ({singleCollege}) => {
             </div>
 
             <div className="md:flex gap-10 my-3">
-                <span className="md:flex items-center gap-1 font-semibold">Date: <span className="text-orange-500"><FaCalendarAlt></FaCalendarAlt></span>{date}</span>
-                <span className="flex items-center font-semibold gap-1">Subject: <span className="text-orange-500"><FaBook></FaBook></span>{subject}</span>
+                <span className="md:flex items-center gap-1 font-semibold">Date: <span className="text-purple-500"><FaCalendarAlt></FaCalendarAlt></span>{date}</span>
+                <span className="flex items-center font-semibold gap-1">Subject: <span className="text-purple-500"><FaBook></FaBook></span>{subject}</span>
             </div>
             <div className="card-actions justify-end">
-           {user?<Link to='/review'><button className="btn btn-primary">Review</button></Link>:<Link to='/login'><button onClick={handleReview} className="btn btn-primary">Review</button></Link>}
+           {user?<Link to='/review'><button className="btn bg-purple-800 text-purple-300">Review</button></Link>:<Link to='/login'><button onClick={handleReview} className="btn btn-primary">Review</button></Link>}
             </div>
         </div>
         </div>

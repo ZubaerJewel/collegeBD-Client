@@ -1,11 +1,3 @@
-// import { Link, useNavigate } from "react-router-dom";
-// import Lottie from "lottie-react";
-// import create from '../../assets/create.json'
-// import { useContext } from "react";
-// import { AuthContext } from "../../provider/AuthProvider";
-// import { toast } from "react-hot-toast";
-// import SocialLogin from "../../component/SocailLogin/SocialLogin";
-
 import { useContext } from "react";
 import { AuthContext } from "../../provider/AuthProvider";
 import { Link, useNavigate } from "react-router-dom";
@@ -49,7 +41,7 @@ const SignIn = () => {
             <div className="grid md:grid-cols-2 items-center">
                {/* animation */}
                <div className="w-full">
-                <img src="https://img.freepik.com/free-vector/sign-up-concept-illustration_114360-7865.jpg?w=740&t=st=1690003854~exp=1690004454~hmac=498be7842df91ac09de58eab66e40bef12487d2b933a68dfe87f79f003934cfc" alt="" />
+                <img src="https://studio.uxpincdn.com/studio/wp-content/uploads/2022/02/sign-up-page-examples.png" alt="" />
 
                     
                 </div>
@@ -60,10 +52,10 @@ const SignIn = () => {
                <div className="hero min-h-screen">
   <div className="hero-content flex-col ">
     <div className="text-center">
-      <h1 className="text-4xl font-bold text-[#F63E7B] uppercase">Sign in</h1>
+      <h1 className="text-4xl font-bold text-purple-800 uppercase">Sign Up</h1>
       
     </div>
-    <div className="card md:w-96  shadow-2xl bg-base-100">
+    <div className="card md:w-96  shadow-2xl bg-purple-300">
      <div className="card-body">
      <form onSubmit={createSubmit}>
         <div className="form-control">
@@ -93,12 +85,12 @@ const SignIn = () => {
           
         </div>
         <div className="form-control mt-6">
-          <button type="submit" className="btn bg-[#F63E7B] hover:bg-[#F63E7B] text-white uppercase">Sign in</button>
+          <button type="submit" className="btn bg-purple-800 hover:bg-purple-500 text-purple-300 uppercase">Sign Up</button>
 
         </div>
      </form>
      <SocialLogin></SocialLogin>
-          <p className="my-2">{"Already Have Account?"} <span className="font-bold text-[#F63E7B] underline"><Link to='/login'>Go to Login</Link> </span> </p>
+          <p className="my-2">{"Already Have Account?"} <span className="font-bold text-purple-500 underline"><Link to='/login'>Go to Login</Link> </span> </p>
       </div>
     </div>
   </div>

@@ -29,7 +29,7 @@ const ReviewApi = () => {
   return (
     <div className="my-10 mx-10">
       <h2 className="uppercase text-center text-3xl mt-14 mb-10">Please Give Us Some review</h2>
-      <div className="bg-gray-300 px-10 py-20 rounded-xl h-full mx-auto shadow-2xl md:w-1/2 mb-16">
+      <div className="bg-purple-300 px-10 py-20 rounded-xl h-full mx-auto shadow-2xl md:w-1/2 mb-16">
 
      <form onSubmit={handleReview}>
      <div className="form-control w-full">
@@ -37,7 +37,8 @@ const ReviewApi = () => {
         <span className="label-text">What is your name?</span>
       
       </label>
-      <input type="text" placeholder="Type here" name="name" className="input input-bordered w-full max-w-xs" required />
+      <input type="text" placeholder="Type here" name="name" 
+      className="input input-bordered w-full max-w-xs" required />
     </div>
 
       <div className="form-control w-full ">
