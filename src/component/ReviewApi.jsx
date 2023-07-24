@@ -57,7 +57,7 @@ const ReviewApi = () => {
     
     </div>
 
-    <button type="submit" className="btn btn-accent mt-5">Submit</button>
+    <button type="submit" className="btn bg-purple-500 mt-5">Submit</button>
             
      </form>
 

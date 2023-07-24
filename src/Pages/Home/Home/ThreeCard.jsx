@@ -14,7 +14,7 @@ const ThreeCard = () => {
         data-aos-duration="1000">
              <div className='flex justify-center'>
            <span className='text-4xl mr-1'> <FaGraduationCap></FaGraduationCap></span>
-            <h2 className="text-4xl  uppercase font-semibold">OUR top three colleges</h2>
+            <h2 className="text-4xl text-purple-800 uppercase font-semibold">OUR top three colleges</h2>
             </div>
             
            

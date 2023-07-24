@@ -6,7 +6,7 @@ const Graduate = () => {
         data-aos-duration="1000">
               <div className='flex text-purple-900 justify-center'>
            <span className='text-4xl mr-1'> <FaGraduationCap></FaGraduationCap></span>
-            <h2 className="text-4xl  uppercase font-semibold">{"graduate's"} gallery </h2>
+            <h2 className="text-4xl text-purple-800  uppercase font-semibold">{"graduate's"} gallery </h2>
             </div>
              
             <div className='grid md:grid-cols-4 gap-3 my-12'data-aos="zoom-in"

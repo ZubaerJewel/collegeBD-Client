@@ -2,6 +2,7 @@ import { useContext, useEffect, useState } from "react";
 import { AuthContext } from "../../provider/AuthProvider";
 import { FaGraduationCap } from "react-icons/fa";
 import MySingleCollege from "./MySingleCollege";
+// import SingleCard from "../Home/Home/SingleCard";
 
 
 const MyColleges = () => {
@@ -17,13 +18,15 @@ const MyColleges = () => {
         })
     },[url])
    
+    
+
     return (
         <div className="mx-10 my-20"data-aos="zoom-in"
         data-aos-duration="2000">
            <div className="uppercase text-center mt-16">
-           <div className='flex justify-center'>
+           <div className='flex justify-center text-purple-800'>
            <span className='text-4xl mr-1'> <FaGraduationCap></FaGraduationCap></span>
-            <h2 className="text-4xl  uppercase font-semibold">my selected Information</h2>
+            <h2 className="text-4xl  uppercase font-semibold">my college Information</h2>
             </div> 
          </div>
 
@@ -35,6 +38,7 @@ const MyColleges = () => {
                 ></MySingleCollege>)
             }
          </div>
+        
             
         </div>
     );
