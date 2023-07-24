@@ -14,22 +14,26 @@ const Features = () => {
                 {/* text */}
                 <div className='h-full'data-aos="zoom-in"
            data-aos-duration="3000" >
-                    <img className='h-full rounded-xl' src="https://img.freepik.com/premium-photo/vertical-portrait-young-man-wearing-graduation-hat-holding-diploma-while-posing-against-greenery-outdoors_236854-30329.jpg?w=360" alt="" />
+                    <img className='h-full rounded-xl    mt-7' src="https://c8.alamy.com/comp/2G3CPA2/mature-man-in-a-graduation-gown-holding-a-book-outdoors-2G3CPA2.jpg" alt="" />
                 </div>
                 <div data-aos="zoom-in"
            data-aos-duration="1500" >
                
-            <p className='my-5 font-medium'> Explore our diverse range of academic courses, designed to provide comprehensive knowledge and practical skills in various disciplines.</p>
+            <p className='my-5 font-medium'> 
+            Remember that each student's perception of the "best" features may vary based on their individual needs and aspirations. Therefore, when considering a college, it's essential to assess how well its features align with your personal goals and aspirations.
+            </p>
             {/* one */}
-            
+         
             <div className='flex'data-aos="zoom-in"
            data-aos-duration="2000" >
                <div className=''> 
                {/* <span className='text-4xl text-orange-500'><BsPeopleFill></BsPeopleFill></span> */}
                </div>
                 <div className='ml-10'>
-                    <h4 className='text-3xl my-3 font-bold'>Skilled Teachers</h4>
-                    <p className='text-xl my-2'>Our skilled teachers are experts in their fields, passionate about teaching, and possess excellent communication skills.</p>
+                    <h4 className='text-3xl my-3 font-bold'>Career Services:</h4>
+                    <p className='text-xl my-2'>
+                    An exceptional college has a dedicated career services department that assists students in career planning, resume building, interview preparation, and job searches. They conduct workshops and job fairs to connect students with potential employers.
+                    </p>
                 </div>
             </div>
             {/* one */}
@@ -41,8 +45,8 @@ const Features = () => {
                {/* <span className='text-4xl text-orange-500'><FaBitcoin></FaBitcoin></span> */}
                </div>
                 <div className='ml-10'>
-                    <h4 className='text-3xl my-3 font-bold'>Affordable Courses</h4>
-                    <p className='text-xl my-2'>Our college offers a wide range of affordable courses, making quality education accessible to all students without compromising on excellence.</p>
+                    <h4 className='text-3xl my-3 font-bold'>Outstanding Faculty:</h4>
+                    <p className='text-xl my-2'>A college with the best features should have a team of highly qualified and experienced faculty members. These professors and instructors play a vital role in shaping students' knowledge and skills. They are passionate about teaching, engaging, and provide mentorship to help students reach their full potential.</p>
                 </div>
             </div>
             {/* two */}
@@ -55,8 +59,9 @@ const Features = () => {
                {/* <span className='text-4xl text-orange-500'><FaReact></FaReact></span> */}
                </div>
                 <div className='ml-10'>
-                    <h4 className='text-3xl my-3 font-bold'>Efficient & Flexible</h4>
-                    <p className='text-xl my-2'>Our college provides efficient and flexible learning options, empowering students to tailor their education and achieve their academic goals.</p>
+                    <h4 className='text-3xl my-3 font-bold'>Supportive Campus Environment:</h4>
+                    <p className='text-xl my-2'>
+A positive and inclusive campus environment fosters a sense of community among students. The best colleges encourage extracurricular activities, clubs, and student organizations, promoting personal growth, leadership, and social skills.</p>
                 </div>
             </div>
             {/* Three */}
