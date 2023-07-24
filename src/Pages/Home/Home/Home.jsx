@@ -11,10 +11,11 @@ const Home = () => {
         <div>
             <SearchButton></SearchButton>
             <Banner></Banner> 
-            <ThreeCard></ThreeCard> 
-            <Graduate></Graduate>   
+            <ThreeCard></ThreeCard>
             <Features></Features>
-            <Review></Review>
+            <Review></Review> 
+            <Graduate></Graduate>   
+            
         </div>
     );
 };

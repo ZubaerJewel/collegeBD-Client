@@ -9,15 +9,15 @@ const SingleColleges = ({single}) => {
     return (
         <div className="mt-16"data-aos="zoom-in"
         data-aos-duration="2000">
-                    <div className="card w-full bg-base-100 shadow-xl">
+                    <div className="card w-full text-purple-400 bg-purple-800 shadow-xl">
         <figure><img className="h-56 w-full hover:scale-125 duration-500" src={college_image} alt="Shoes" /></figure>
         <div className="card-body">
             <h2 className="card-title text-center">{college_name}</h2>
             <p className="my-2 flex items-center">Admission Date: {admission_date} <span className="ml-2"><FaCalendarAlt></FaCalendarAlt></span></p>
-            <div className="flex justify-between my-5 items-center">
+            <div className="flex flex-col justify-start my-5 ">
                 <div className="flex items-center">
                     <h2>Rating: {college_rating}</h2>
-                    <span className="ml-2 text-yellow-500"><FaStar></FaStar></span>
+                    <span className="ml-2 text-yellow-400"><FaStar></FaStar></span>
 
                 </div>
                 <div className="flex items-center">
@@ -27,7 +27,7 @@ const SingleColleges = ({single}) => {
                 </div>
             </div>
             <div className="card-actions justify-end">
-            <button onClick={DetailsBtn} className="btn btn-accent">Details</button>
+            <button onClick={DetailsBtn} className="btn bg-purple-500">Details</button>
             </div>
         </div>
         </div>  

@@ -18,7 +18,7 @@ const SingleCard = ({item}) => {
     return (
         <div data-aos="zoom-in"
         data-aos-duration="2000">
-            <div className="card w-full bg-base-200 font-semibold shadow-2xl">
+            <div className="card w-full text-purple-400 bg-purple-800 font-semibold shadow-2xl">
   <figure><img className="h-56 hover:scale-150 transform duration-1000" src={collegeImage} alt="Shoes" /></figure>
   <div className="card-body">
     <h2 className="card-title uppercase text-center my-2">{collegeName}</h2>
@@ -36,10 +36,10 @@ const SingleCard = ({item}) => {
     
     { user?
       <Link to={`/card/${_id}`} className=''>
-        <button className="btn text-white bg-[#ff4d89] hover:bg-[#F63E7B]">Details
+        <button className="btn text-white bg-purple-500 hover:bg-purple-300">Details
         </button></Link>:<Link to='/login'>
           <button onClick={handleDetails} 
-          className="btn text-white bg-[#ff4d89] hover:bg-[#F63E7B]">Details</button>
+          className="btn text-white bg-purple-500 hover:bg-purple-300">Details</button>
           </Link>}
     </div>
   </div>
